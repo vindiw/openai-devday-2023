@@ -118,4 +118,3 @@ elif page == "Gallery":
                 st.error(f"Could not load image for prompt: '{prompt}'. Error: {e}")
         else:
             st.info(f"No image data available for prompt: '{prompt}'.")
-
